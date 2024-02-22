@@ -1,0 +1,111 @@
+body{
+  font-family: "Roboto";
+}
+
+header{
+  background: #007765;
+  height: 5em;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+header>img{
+  float: left;
+  height: 3em;
+  align-self: center;
+}
+header>p{
+  text-align: center;
+  width: auto;
+  font-size: 24px;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.isHere{
+  background: url(img/image.png);
+  background-size: cover;
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  font-weight: 500;
+}
+
+h2{
+  color: #007765;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.problem>p{
+  font-size: 32px;
+  padding-left: 3.43em;
+  padding-right: 3.43em;
+}
+
+.citata{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  background-image: url(img/image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2em 4em;
+}
+
+.introd{
+  font-size: 32px;
+  padding-left: 3.43em;
+  padding-right: 3.43em;
+}
+
+.introd>img{
+  float: left;
+  width: 4em;
+  padding-right: 3em;
+}
+
+.team{
+  background: #eeeeee;
+  padding-left: 3.43em;
+  padding-right: 3.43em;
+}
+
+.blocks{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  text-align: center;
+  padding: 0em 3.43em;
+}
+
+.blocks h3{
+  color: #007765;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.blocks p{
+  font-style: italic;
+  font-size: 18px;
+}
+
+footer{
+  background: #333333;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 3em 15em;
+}
